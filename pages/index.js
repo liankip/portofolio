@@ -44,7 +44,7 @@ const Home = (props) => {
 											</Link>
 										</h1>
 										<div className='content'>
-											<span className="tag is-danger ">{data.tag}</span>
+											<span className="tag is-danger ">{data.tag}</span><br />
 											<p className='subtitle is-size-5 '>
 												{data.desc}
 											</p>
