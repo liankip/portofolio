@@ -36,16 +36,15 @@ const Home = (props) => {
 										</span>
 									</figure>
 									<div className='media-content'>
+										<h1 className='title is-size-4 '>
+											<Link href={data.link}>
+												<a>
+													{data.name}
+												</a>
+											</Link>
+										</h1>
 										<div className='content'>
-											<h1 className='title is-size-4 '>
-												<Link href={data.link}>
-													<a>
-														{data.name}
-													</a>
-												</Link>
-											</h1>
 											<span className="tag is-danger ">{data.tag}</span>
-
 											<p className='subtitle is-size-5 '>
 												{data.desc}
 											</p>
