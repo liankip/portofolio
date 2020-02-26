@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Head from "../components/head";
-import Nav from "../components/nav";
 import Link from "next/link";
 import Footer from "../components/footer";
 import "bulma/css/bulma.min.css";
