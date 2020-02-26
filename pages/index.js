@@ -14,7 +14,7 @@ const Home = (props) => {
 				<div className='hero-body'>
 					<div className='container'>
 						<h1 className='title'>
-							Hello I'm{" "}
+							Hello I'm
 							<strong className='has-text-danger'>Liandi Haikal</strong>
 						</h1>
 						<h2 className='subtitle'>
@@ -37,13 +37,13 @@ const Home = (props) => {
 									</figure>
 									<div className='media-content'>
 										<div className='content'>
-											<Link href={data.link}>
-												<h1 className='title is-size-4 '>
+											<h1 className='title is-size-4 '>
+												<Link href={data.link}>
 													<a>
 														{data.name}
 													</a>
-												</h1>
-											</Link>
+												</Link>
+											</h1>
 											<span className="tag is-danger ">{data.tag}</span>
 
 											<p className='subtitle is-size-5 '>
