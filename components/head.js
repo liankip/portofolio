@@ -28,6 +28,7 @@ const Head = props => (
     <meta property="og:image" content={props.ogImage || defaultOGImage} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <script defer src = "https://use.fontawesome.com/releases/v5.3.1/js/all.js" > </script>
   </NextHead>
 );
 
