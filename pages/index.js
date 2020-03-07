@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Head from "../components/head";
 import Link from "next/link";
-import Footer from "../components/footer";
-import "bulma/css/bulma.min.css";
+import '../styles/main.css';
 import axios from "axios";
 
 const Home = (props) => {
@@ -10,54 +9,56 @@ const Home = (props) => {
 		<div>
 			<Head title='Portopolio Liandi Haikal' />
 
-			<section className='hero'>
-				<div className='hero-body'>
-					<div className='container'>
-						<h1 className='title'>
-							Hello I'm
-							<strong className='has-text-danger'>Liandi Haikal</strong>
-						</h1>
-						<h2 className='subtitle'>
-							this My <strong className='has-text-danger'>Portofolio</strong>
-						</h2>
-					</div>
+			<div className="container my-12 mx-auto px-4 md:px-12">
+				<div className="p-4">
+					<h1 className="text-gray-700 leading-normal">Hello I'm <span className="text-purple-500">Liandi Haikal,</span></h1>
+					<p className="text-gray-700 leading-normal"> I'm <span className="text-purple-500">Web Developer</span> or <span className="text-purple-500">Programmer</span>, </p>
+					<p className="text-gray-700 leading-normal">
+						Contact Me :
+						<span className="text-purple-500"> <Link href="https://www.facebook.com/liandi.haikal"><a>Facebook</a></Link>, </span>
+						<span className="text-purple-500"> <Link href="https://www.instagram.com/liandihaikal"><a>Instagram</a></Link>, </span>
+						<span className="text-purple-500"> <Link href="https://t.me/liandi_haikal"><a>Telegram</a></Link>, </span>
+						<span className="text-purple-500"> <Link href="https://wa.me/6282276366690?text=Hallo%20Haikal,%20Saya%20sangat%20menyukai%20Portofoliomu"><a>Whatsapp</a></Link>, </span>
+						<span className="text-purple-500"> <Link href="tel:+6282276366690"><a>+62 822-7636-6690</a></Link> </span>
+					</p>
 				</div>
-			</section>
-
-			<div className='section has-background-light'>
-				<div className='container'>
-					<div className='columns is-multiline '>
-						{props.data.map((data) => (
-							<div key={data.id} className='column is-one-third'>
-								<article className='media notification has-background-white'>
-									<figure className='media-left'>
-										<span className='icon has-text-danger'>
-											<i className={data.icon}></i>
-										</span>
-									</figure>
-									<div className='media-content'>
-										<h1 className='title is-size-4 '>
-											<Link href={data.link}>
-												<a>
-													{data.name}
-												</a>
-											</Link>
-										</h1>
-										<div className='content'>
-											<span className="tag is-danger ">{data.tag}</span><br />
-											<p className='subtitle is-size-5 '>
-												{data.desc}
-											</p>
-										</div>
-									</div>
-								</article>
+				<div className="flex flex-wrap -mx-1 lg:-mx-4">
+					{props.data.map((data) => (
+					<div key={data.id} className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+						<div className="max-w-sm rounded overflow-hidden shadow-lg">
+							<div className="px-6 py-4">
+								<Link href={data.link}>
+									<a>
+										<div className="font-bold text-xl mb-2">{data.name}</div>
+									</a>
+								</Link>
+								<div className="px-2 py-4">
+									<span className="inline-block bg-gray-200 hover:bg-purple-700 hover:text-white rounded-full px-3 py-1 text-sm font-semibold text-purple-700 mr-2">{data.tag}</span>
+								</div>
+								<p className="text-gray-600 text-base">{data.desc}</p>
+								<div className="px-2 py-4">
+									<Link href={data.link}>
+										<a>
+											<button class="bg-gray-200 hover:bg-purple-700 hover:text-white text-sm font-semibold text-purple-700 py-2 px-4 rounded inline-flex items-center mr-2">
+												<span>Github</span>
+											</button>
+										</a>
+									</Link>
+									{ data.demo === '' ? '' : 
+										<Link href={data.demo}>
+											<a>
+												<button class="bg-gray-200 hover:bg-purple-700 hover:text-white text-sm font-semibold text-purple-700 py-2 px-4 rounded inline-flex items-center mr-2"> Deploy </button>
+</a>
+										</Link>
+									}
+								</div>
 							</div>
-						))}
+						</div>
 					</div>
+					))}
 				</div>
 			</div>
 
-			<Footer />
 
 			<style jsx>{`
 				a {
@@ -69,8 +70,6 @@ const Home = (props) => {
 };
 
 Home.getInitialProps = async function() {
-	// fetch('https://api.tvmaze.com/search/shows?q=batman')
-	// const data = await res.json()
 	const res = await await axios.get(
 		"https://my-json-server.typicode.com/liankip/portofolio-api/project"
 	);
