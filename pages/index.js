@@ -19,7 +19,7 @@ const Home = (props) => {
 						<span className="text-purple-500"> <Link href="https://www.instagram.com/liandihaikal"><a>Instagram</a></Link>, </span>
 						<span className="text-purple-500"> <Link href="https://t.me/liandi_haikal"><a>Telegram</a></Link>, </span>
 						<span className="text-purple-500"> <Link href="https://wa.me/6282276366690?text=Hallo%20Haikal,%20Saya%20sangat%20menyukai%20Portofoliomu"><a>Whatsapp</a></Link>, </span>
-						<span className="text-purple-500"> <Link href="tel:+6282276366690"><a>+62 822-7636-6690</a></Link> </span>
+						<span className="text-purple-500"> <Link href="tel:+6281260313488"><a>+62 812-6031-3488</a></Link> </span>
 					</p>
 				</div>
 				<div className="flex flex-wrap -mx-1 lg:-mx-4">
