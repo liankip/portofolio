@@ -30,7 +30,7 @@ const Home = (props) => {
             </span>
             <span className="text-purple-500">
               {" "}
-              <Link href="https://www.instagram.com/liandihaikal">
+              <Link href="https://www.instagram.com/yrugmst/">
                 <a>Instagram</a>
               </Link>
               {" "}
