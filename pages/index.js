@@ -16,8 +16,7 @@ const Home = (props) => {
           </h1>
           <p className="text-gray-700 leading-normal">
             {" "}
-            <span className="text-purple-500">Web </span> and{" "}
-            <span className="text-purple-500"> Android Programmer</span>{" "}
+            <span className="text-purple-500">Programmer Back End</span>{" "}
           </p>
           <p className="text-gray-700 leading-normal">
             Contact Me :
