@@ -2,6 +2,9 @@ module.exports = {
   theme: {
     extend: {},
   },
-  variants: {},
-  plugins: [],
-}
+  variants: {
+    backgroundColor: ["hover", "responsive", " focus", "dark", "dark-hover"],
+    textColor: ["hover", "responsive", "focus", "dark", "dark-hover"],
+  },
+  plugins: [require("tailwindcss-dark-mode")()],
+};

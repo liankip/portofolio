@@ -25,40 +25,34 @@ const Home = (props) => {
               {" "}
               <Link href="https://www.facebook.com/liandi.haikal">
                 <a>Facebook</a>
-              </Link>
-              {" "}
+              </Link>{" "}
             </span>
             <span className="text-purple-500">
               {" "}
               <Link href="https://www.instagram.com/yrugmst/">
                 <a>Instagram</a>
-              </Link>
-              {" "}
-            </span>
-            <span className="text-purple-500">
-              {" "}
-              <Link href="https://t.me/liandi_haikal">
-                <a>Telegram</a>
-              </Link>
-              ,{" "}
+              </Link>{" "}
             </span>
           </p>
           <p className="text-gray-700 leading-normal">
             Whatsapp :
             <span className="text-purple-500">
               {" "}
-              <Link href="https://wa.me/6282276366690?text=Hallo%20Haikal,%20Saya%20sangat%20menyukai%20Portofoliomu">
-                <a> 0822 7636 6690</a>
+              <Link href="https://wa.me/6281260313488?text=Hallo%20Haikal,%20Saya%20sangat%20menyukai%20Portofoliomu">
+                <a>0812 6031 3488</a>
               </Link>
               ,{" "}
             </span>
           </p>
           <p className="text-gray-700 leading-normal">
+            Telegram :<span className="text-purple-500">0821 6842 0111,</span>
+          </p>
+          <p className="text-gray-700 leading-normal">
             Phone :
             <span className="text-purple-500">
               {" "}
-              <Link href="tel:+6281265183071">
-                <a>0812 6518 3071</a>
+              <Link href="tel:+6281260313488">
+                <a>0812 6031 3488</a>
               </Link>{" "}
             </span>
           </p>
