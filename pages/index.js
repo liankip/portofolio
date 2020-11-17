@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Head from "../components/head";
 import Link from "next/link";
 import "../styles/main.css";
