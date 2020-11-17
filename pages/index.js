@@ -44,7 +44,7 @@ const Home = (props) => {
             </span>
           </p>
           <p className="text-gray-700 leading-normal">
-            Telegram :<span className="text-purple-500">0821 6842 0111,</span>
+            Telegram : <span className="text-purple-500">0821 6842 0111,</span>
           </p>
           <p className="text-gray-700 leading-normal">
             Phone :
