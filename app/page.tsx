@@ -13,6 +13,7 @@ type Project = {
 
 async function fetchProjects(): Promise<Project[]> {
     const response = await axios.get('https://my-json-server.typicode.com/liankip/api-portofolio/project')
+    // const response = await axios.get('http://localhost:3000/project')
 
     return response.data;
 }
