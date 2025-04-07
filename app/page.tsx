@@ -22,7 +22,7 @@ export default function Home() {
 
     useEffect(() => {
         const fetchProjects = async () => {
-            const response = await axios.get('http://localhost:3000/project')
+            const response = await axios.get('https://my-json-server.typicode.com/liankip/api-portofolio/project')
             setProjects(response.data)
         }
 
