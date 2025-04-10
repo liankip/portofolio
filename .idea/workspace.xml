@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="727338a2-8aa8-4728-8e6d-149d5066db84" name="Changes" comment="">
+    <list default="true" id="727338a2-8aa8-4728-8e6d-149d5066db84" name="Changes" comment="change expend to carousel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +80,24 @@
       <workItem from="1744197945149" duration="2233000" />
       <workItem from="1744244503484" duration="297000" />
       <workItem from="1744287539128" duration="633000" />
-      <workItem from="1744288367114" duration="902000" />
+      <workItem from="1744288367114" duration="2405000" />
     </task>
+    <task id="LOCAL-00001" summary="change expend to carousel">
+      <option name="closed" value="true" />
+      <created>1744289520961</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744289520961</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change expend to carousel" />
+    <option name="LAST_COMMIT_MESSAGE" value="change expend to carousel" />
   </component>
 </project>
